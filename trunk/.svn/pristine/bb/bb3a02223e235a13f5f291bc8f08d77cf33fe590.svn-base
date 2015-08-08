@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-6d0e28142a1a56d227100e5e2556442d11d60474.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-3a4dc29196d2bdacefbb14c9fc3a94e004f73d13.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-3aa7db76fb45548e7229bc58ed424d445976138c.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-af64bfe294f651b6fd046899e9816c47ccf5b0a2.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-b68b6809d9c39e38d0329a2618b7dce1893af267.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-9f04de91f3c9f0db909ea30ba72470b9395f7065.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-01a2a5354f386bd5d36622e0bc98a857547a596c.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-3d7509f6c393c7254d5ea4ed58df78eab968eba1.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-cde6afe9877ea20a4ca82fb6386eab5599ce4c5e.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-98833bff82d2b406a873c555840b4dd2362bc46b.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-262133d9cb569125332f56030815a5dc091fcd4d.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-8c00f20cdedabe5998daaabf8fd05715eace07bf.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-db0bb44e13f5ad19ff63507a65383a0bdb110f61.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-4d231bc93802c74f9bcb89f4bc61cba9c1aaca76.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-7e7956b319a74dea96850daec136f41bd965899a.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-167108548f182cd0fb7fe9fec4eb106ad81015a5.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-af12cc2ed746973091430057a3ee049d61e3e4cf.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-c754bdd7a26e786e9e0e634c91ecc47aa24e20cb.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-647ba2abe35cdb8bd861491f007c8b15a11b8716.jar" />
+    </item>
+    <item
+        jar="C:\Users\kt\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\library-2.4.0-52cad52fb52fd176c0f83ba8c2e67ed981dd95c3.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-89cf2fe337bd0bf288afde507ffc3fe13f580be3.jar" />
+    </item>
+    <item
+        jar="C:\Users\kt\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.3.2\d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27\picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\picasso-2.3.2-c675f18489836177dd01c7342e866cc8c32f8b35.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-1a1e8abd6f9111ee4b4d88fae389253d124aa037.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-0e0d1358f18f20d5d0703e18d3e646d41c139e68.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-ce51fcf59b945c7271bb2bd84ffa76851bc94655.jar" />
+    </item>
+    <item
+        jar="C:\Users\kt\AppData\Local\Android\sdk2\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-8c0634fb3d232c66e95fe43d7da5701585204ef2.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-55a579a9141d5ad43cec25ab507e8b47c1526fc4.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-7c594fc5dbcb919a528988e02472929ca8355d8f.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-cb6ed2341149be3067c808b7434674ae951a7963.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-46279a9615a6fe8a51375e585cabbbd1152e11fb.jar" />
+    </item>
+    <item
+        jar="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="D:\Loma 23-july-2015\Loma Buyers App\Loma Buyer&apos;s App\app\build\intermediates\pre-dexed\debug\classes-2b47560199021acdb2dd186b0fcb68376d87f204.jar" />
+    </item>
+
+</items>

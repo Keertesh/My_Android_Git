@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    tools:context=".MainActivity" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/atm_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atm_button"
+        android:background="@drawable/atm"
+        android:layout_above="@+id/hospital_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/restaurant_button"
+        android:background="@drawable/restaurant"
+        android:layout_alignTop="@+id/atm_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hospital_button"
+        android:background="@drawable/hospital"
+        android:layout_above="@+id/beauty_salon_button"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/beauty_salon_button"
+        android:background="@drawable/beauty_salon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/restaurant_button"
+        android:layout_alignStart="@+id/restaurant_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gas_station_button"
+        android:background="@drawable/petrol"
+        android:layout_alignTop="@+id/beauty_salon_button"
+        android:layout_alignLeft="@+id/atm_button"
+        android:layout_alignStart="@+id/atm_button" />
+
+
+</RelativeLayout>

@@ -1,0 +1,144 @@
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aditya.my_loma.Write_review"
+    android:id="@+id/myshop">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="VPS Electronic"
+        android:id="@+id/shopname_wr"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Station road"
+        android:id="@+id/add_wr"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/shopname_wr"
+        android:layout_centerHorizontal="true" />
+
+    <RatingBar
+        android:layout_width="174dp"
+        android:layout_height="45dp"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:id="@+id/sdrate"
+
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/add_wr"
+        android:layout_alignLeft="@+id/ratingBar4"
+        android:layout_alignStart="@+id/ratingBar4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Behaviour"
+        android:textSize="18dp"
+        android:id="@+id/behav"
+        android:layout_alignTop="@+id/sdrate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/shopname_wr"
+        android:layout_toStartOf="@+id/shopname_wr" />
+
+
+
+    <RatingBar
+        android:layout_width="174dp"
+        android:layout_height="45dp"
+        android:id="@+id/ratingBar3"
+        android:max="5"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_below="@+id/ratingBar4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="After Sale Service"
+        android:id="@+id/service"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/sdrate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RatingBar
+        android:layout_width="174dp"
+        android:layout_height="45dp"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:id="@+id/ratingBar4"
+        android:max="5"
+        android:numStars="5"
+        android:rating="0.0"
+        android:stepSize="0.0"
+        android:layout_below="@+id/sdrate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RV_title"
+        android:hint="Review Title"
+        android:layout_gravity="top"
+        android:layout_below="@+id/ratingBar3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/ratingBar3"
+        android:layout_alignEnd="@+id/ratingBar3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:hint="Review Details(min 15 character)"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/RV_details"
+        android:singleLine="true"
+        android:layout_below="@+id/RV_title"
+        android:layout_alignRight="@+id/ratingBar3"
+        android:layout_alignEnd="@+id/ratingBar3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Post Review"
+        android:id="@+id/post_rv"
+        android:background="#61A3E6"
+        android:onClick="post"
+        android:layout_below="@+id/RV_details"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="price"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/price1"
+        android:layout_alignTop="@+id/ratingBar4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

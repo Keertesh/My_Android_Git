@@ -1,0 +1,107 @@
+package kt.tech.com.lomaprototypeversion11;
+
+import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+import android.widget.Toast;
+
+public class LocationList extends ActionBarActivity {
+    Toolbar mToolbar;
+    private AutoCompleteTextView autoComplete;
+
+    private ArrayAdapter<String> adapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.location_search_list);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar_actionbar);
+        setSupportActionBar(mToolbar);
+        //--lock screen for always Portrait mode
+        setRequestedOrientation(ActivityInfo
+                .SCREEN_ORIENTATION_PORTRAIT);
+        //--lock screen for always Portrait mode
+
+        // get the defined string-array
+        String[] cityname = getResources().getStringArray(R.array.cityList);
+
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,cityname);
+
+        autoComplete = (AutoCompleteTextView) findViewById(R.id.autoComplete);
+
+        autoComplete.setAdapter(adapter);
+
+        autoComplete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+       String locationname= autoComplete.getText().toString();
+
+        autoComplete.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String selectedcity = (String)parent.getItemAtPosition(position);
+                Toast.makeText(getApplicationContext(), "Selected City->"+selectedcity, Toast.LENGTH_SHORT).show();
+                Intent home = new Intent(getApplicationContext(),Home.class);
+                home.putExtra("cityname",selectedcity);
+
+
+                if (selectedcity.equals("Bhilai"))
+                {
+                    double latitude  = 21.214599;
+                    double longitude = 81.317547;
+                    home.putExtra("latitude ",latitude );
+                    home.putExtra("longitude",longitude);
+                    startActivity(home);
+                    finish();
+
+
+                }
+                if (selectedcity.equals("Durg"))
+                {
+                    double latitude  = 21.171579;
+                    double longitude = 81.293843;
+                    home.putExtra("latitude ",latitude );
+                    home.putExtra("longitude",longitude);
+                    startActivity(home);
+                    finish();
+                }
+
+                if (selectedcity.equals("Raipur"))
+                {
+                    double latitude  = 21.251187;
+                    double longitude = 81.632635;
+                    home.putExtra("latitude ",latitude );
+                    home.putExtra("longitude",longitude);
+                    startActivity(home);
+                    finish();
+                }
+
+            }
+        });
+
+
+
+
+
+        // Intent i = new Intent(getApplicationContext(), Home.class);
+        // i.putExtra("location", locationname);
+      // startActivity(i);
+
+
+        autoComplete.setThreshold(1);
+
+
+    }
+
+
+
+}

@@ -1,0 +1,171 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Productdetail"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/layout">
+
+
+
+        <ImageView
+            android:id="@+id/shopimg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/electronics"
+
+            android:layout_below="@+id/linearLayout"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#000000"
+            android:alpha="1" />
+
+
+
+        <Button
+            android:id="@+id/call"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/call"
+            android:textColor="#0000ff"
+            android:layout_alignTop="@+id/more"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+
+        <Button
+            android:id="@+id/companyproductmap"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/download"
+            android:layout_alignTop="@+id/call"
+            android:layout_alignRight="@+id/companyproductactivitylistview"
+            android:layout_alignEnd="@+id/companyproductactivitylistview" />
+
+
+        <ListView
+            android:id="@+id/companyproductactivitylistview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:splitMotionEvents="false"
+            android:dividerHeight="5dp"
+            android:divider="#204c39"
+            android:state_focused="false"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </ListView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Available Products"
+            android:id="@+id/textView4"
+            android:textColor="#eeeeee"
+            android:layout_below="@+id/shopimg"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:background="#295f48"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="VPS Electronic"
+            android:id="@+id/companyName"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/shopimg"
+            android:layout_alignLeft="@+id/more"
+            android:layout_alignStart="@+id/more"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Station Road"
+            android:textColor="#ffffff"
+            android:id="@+id/companydetailaddress"
+            android:alpha="0.4"
+            android:layout_below="@+id/companyName"
+            android:layout_alignLeft="@+id/companyName"
+            android:layout_alignStart="@+id/companyName" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="More"
+            android:id="@+id/more"
+            android:textColor="#eeeeee"
+            android:background="@android:color/transparent"
+            android:layout_alignBottom="@+id/shopimg"
+            android:layout_alignLeft="@+id/companyproductactivitylistview"
+            android:layout_alignStart="@+id/companyproductactivitylistview"
+            android:layout_marginBottom="23dp" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:text="New Text"
+            android:id="@+id/companyRate"
+            android:textColor="#ffffee"
+            android:background="#006600"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/companyName"
+            android:layout_alignRight="@+id/companyproductactivitylistview"
+            android:layout_alignEnd="@+id/companyproductactivitylistview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reviews : "
+            android:id="@+id/textView3"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/reviewcountcompany"
+            android:layout_toLeftOf="@+id/companyRate"
+            android:layout_toStartOf="@+id/companyRate" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/reviewcountcompany"
+            android:textColor="#ffffff"
+            android:layout_alignBottom="@+id/companydetailaddress"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Products"
+            android:id="@+id/companyproductactivitymorebutton"
+            android:layout_below="@+id/companyproductactivitylistview"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+

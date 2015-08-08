@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Signup"
+    android:id="@+id/signup">
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#61A3E6"
+        android:text="Next"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignStart="@+id/email"
+        android:layout_alignEnd="@+id/email"
+        android:layout_alignRight="@+id/email"
+        android:layout_alignLeft="@+id/email"/>
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password "
+        android:inputType="textPassword"
+
+        android:layout_below="@+id/mob"
+        android:layout_alignStart="@+id/mob"
+        android:layout_alignLeft="@+id/mob"/>
+
+    <EditText
+        android:id="@+id/mob"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" Mobile Number"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" User Name"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:layout_above="@+id/mob"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="user@server.domain"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:layout_below="@+id/pw"
+        android:layout_alignStart="@+id/pw"
+        android:layout_alignLeft="@+id/pw">
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView5"
+        android:src="@drawable/lomalogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_below="@+id/email"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#61A3E6"
+        android:text="Your Own Shopping Guide"
+        android:id="@+id/companyaddressline"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/companyaddressline"
+        android:layout_toLeftOf="@+id/companyaddressline"
+        android:layout_above="@+id/name"
+        android:layout_below="@+id/companyaddressline"
+        android:layout_alignRight="@+id/imageView7"
+        android:layout_alignEnd="@+id/imageView7" />
+
+</RelativeLayout>

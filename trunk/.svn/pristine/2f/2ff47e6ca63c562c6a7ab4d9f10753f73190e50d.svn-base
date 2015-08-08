@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Editext for Search -->
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/searchList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="42dip"
+        android:background="@drawable/crosses"
+        android:id="@+id/cancel"
+        android:layout_above="@+id/searchList"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="#2196F3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2"
+        android:weightSum="1"
+        android:layout_toLeftOf="@+id/cancel"
+        android:layout_toStartOf="@+id/cancel">
+
+        <Button
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:background="@drawable/crossed"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText android:id="@+id/inputSearch"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:ems="15"
+            android:hint="Search products.."
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:inputType="text"
+            android:layout_alignBottom="@+id/back"
+            android:layout_toRightOf="@+id/back"
+            android:layout_toLeftOf="@+id/cancel"
+            android:layout_toStartOf="@+id/cancel" />
+    </LinearLayout>
+
+</RelativeLayout>

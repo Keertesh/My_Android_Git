@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kt.tech.com.lomaprototypeversion11.Settings">
+    <include android:id="@+id/toolbar_actionbar" layout="@layout/toolbar_default"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Notification Preferences"
+        android:id="@+id/button"
+        android:drawableLeft="@drawable/notification"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:background="#61A3E6"
+        android:layout_below="@+id/space7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text=" Rate Us On Play Store"
+        android:id="@+id/button2"
+        android:drawableLeft="@drawable/rateus"
+        android:background="#61A3E6"
+        android:paddingLeft="10dp"
+
+        android:layout_below="@+id/space4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Send Feedback"
+        android:id="@+id/sendFeedbackButton"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/feeds"
+        android:background="#61A3E6"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/space5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" About Us"
+        android:id="@+id/aboutUs"
+        android:paddingLeft="10dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/aboutus"
+        android:background="#61A3E6"
+        android:layout_below="@+id/space6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:id="@+id/space5"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:id="@+id/space4"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:id="@+id/space6"
+        android:layout_below="@+id/sendFeedbackButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_below="@+id/toolbar_actionbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/space7" />
+
+</RelativeLayout>

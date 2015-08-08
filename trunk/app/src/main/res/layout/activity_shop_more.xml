@@ -1,0 +1,269 @@
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aditya.my_loma.Shop_more"
+    android:id="@+id/rl"
+    android:background="#295f48">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/map"
+        tools:context="com.aditya.my_loma.Half_map4shop_more"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/map"
+        android:layout_alignLeft="@+id/map"
+        android:layout_alignStart="@+id/map"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#eeeeee"
+        android:id="@+id/relativeLayout">
+        <TextView
+            android:id="@+id/companydetailname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VPS Electronic"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/companydetailaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Bilaspur"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18dp"
+            android:layout_below="@+id/companydetailname"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/companydetailcall"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/call1"
+            android:layout_above="@+id/description"
+            android:layout_alignLeft="@+id/companydetailsrate"
+            android:layout_alignStart="@+id/companydetailsrate" />
+
+        <Button
+            android:id="@+id/companydetailmap"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/download"
+
+            android:layout_alignTop="@+id/companydetailcall"
+            android:layout_alignRight="@+id/companydetailreview"
+            android:layout_alignEnd="@+id/companydetailreview" />
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Description"
+            android:textColor="#eeeeee"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/companydetailaddress"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#295f48"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ratings &amp; Reviews"
+            android:id="@+id/textView"
+            android:layout_alignTop="@+id/companydetailreview"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:text="New Text"
+            android:id="@+id/companydetailsrate"
+            android:textColor="#ffffee"
+            android:background="#006600"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_below="@+id/description"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/companydetailreview"
+            android:background="#FFE135"
+            android:textColor="#295f48"
+            android:layout_alignBottom="@+id/companydetailsrate"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Details "
+            android:id="@+id/textView5"
+            android:layout_below="@+id/companydetailsrate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/companydetailcontact"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-Mail "
+            android:id="@+id/textView6"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/companydetailemail"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timing"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/companydetailtiming"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Closed On"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/companydetailclosed"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finance Availability"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/companydetailfinance"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Categories"
+            android:id="@+id/cate"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/companydetailcategory"
+
+            android:layout_alignTop="@+id/cate"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/rvbtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:background="#61A3E6"
+
+        android:text="Add a Review"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignLeft="@+id/relativeLayout"
+        android:layout_alignStart="@+id/relativeLayout" />
+
+    <Button
+        android:id="@+id/fulrv"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:background="#61A3E6"
+        android:text="Read full Review"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignRight="@+id/relativeLayout"
+        android:layout_alignEnd="@+id/relativeLayout" />
+
+
+</RelativeLayout>
+    </ScrollView>
