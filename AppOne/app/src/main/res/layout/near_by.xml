@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6e3d1"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    tools:context=".MainActivity" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_above="@+id/hospital_button"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="atm"
+        android:drawableLeft="@drawable/atm"
+
+        android:id="@+id/atm_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/gas_station_button"
+        android:layout_toEndOf="@+id/gas_station_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hospitals"
+        android:drawableLeft="@drawable/hospital"
+        android:id="@+id/hospital_button"
+        android:layout_above="@+id/gas_station_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurents"
+        android:drawableLeft="@drawable/restaurant"
+        android:id="@+id/restaurant_button"
+        android:layout_above="@+id/atm_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gas stations"
+        android:drawableLeft="@drawable/petrol"
+        android:id="@+id/gas_station_button"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/beauty_salon_button"
+        android:layout_toEndOf="@+id/beauty_salon_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beauty salons"
+        android:drawableLeft="@drawable/beauty_salon"
+        android:id="@+id/beauty_salon_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="theater"
+        android:drawableLeft="@drawable/movie"
+        android:id="@+id/movie_theater"
+        android:layout_alignTop="@+id/restaurant_button"
+        android:layout_toLeftOf="@+id/restaurant_button"
+        android:layout_toRightOf="@+id/hospital_button"
+        android:layout_toEndOf="@+id/hospital_button" />
+
+
+</RelativeLayout>

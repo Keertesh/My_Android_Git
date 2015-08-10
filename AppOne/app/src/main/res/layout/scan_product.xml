@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scanner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="5dp">
+
+
+    <Button android:id="@+id/scan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan"
+        android:background="#1976D2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:name="com.example.kt.appone.ScanProductFragment"
+        android:id="@+id/fragment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/scan_button" />
+
+</RelativeLayout>

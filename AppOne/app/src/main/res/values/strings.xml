@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppOne</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scan_product">ScanProduct</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_cart">MyCart</string>
+    <string name="title_activity_near_by">NearBy</string>
+    <string name="scan">Scan</string>
+    <string name="title_activity_scan_product_fragment">ScanProductFragment</string>
+    <string name="title_activity_my_cart_fragment">MyCartFragment</string>
+</resources>
